@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guerre du milieu!</title>
+    <link href="style.css" rel="stylesheet">
+
+    <script src="case.js"></script>
+    <script src="personnage.js"></script>
+    <script src="arme.js"></script>
+    <script src="gameplay.js"></script>
+
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <h1 id="title">Guerre du milieu!</h1>
+    <section id="btn-relancer">
+        <button type="button" id='relancer'>Relancer</button>
+    </section>
+    
+
+    <section id=container>
+        <section id="joueur1">
+            <div id="displayJ1">
+                <p id="tourj1"></p>
+                <img id="imagej1" src="" alt="image joueur 1">
+                <div id=infosj1></div>
+            </div>
+        </section>
+
+        <div id="plateau"></div>
+
+        <section id="jeuCombat">
+            <p id="tourJoueur"></p>
+            <div id="combat" class="affichageCombat">
+                <div id="boutonChoix">
+                    <button id="attaquer" onclick="main.jeu.attaquer()">Attaquer</button>
+                    <button id="defense" onclick="main.jeu.seDefendre()">Defense</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="joueur2">
+            <div id="displayJ2">
+                <p id="tourj2"></p>
+                <img id="imagej2" src="" alt="image joueur 2">
+                <div id=infosj2></div>
+            </div>
+        </section>
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>
