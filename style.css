@@ -1,0 +1,161 @@
+#container {
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    border: 5px solid #80808059;
+}
+
+.obstacle {
+    height: 80px;
+    width: 80px;
+    background-color: brown;
+}
+
+.vide {
+    height: 80px;
+    width: 80px;
+    background-color: burlywood;
+}
+
+#couteau {
+    height: 80px;
+    width: 80px;
+    background-image: url("https://cdn.shopify.com/s/files/1/2580/8660/products/combat-g10-couteau-a-lame-fixe-mil-tec-noir_384x384.jpg?v=1583576252");
+    background-size: cover;
+}
+
+#grenade {
+    height: 80px;
+    width: 80px;
+    background-image: url("https://www.cdiscount.com/pdt2/3/8/1/1/700x700/den8435089797381/rw/grenade-a-fragmentation-factice-verte-mk2-pine.jpg");
+    background-size: cover;
+}
+
+#fusil {
+    height: 80px;
+    width: 80px;
+    background-image: url("https://www.machinegun.fr/products_img/41251/C_1.jpg");
+    background-size: cover;
+}
+
+#pistolet {
+    height: 80px;
+    width: 80px;
+    background-image: url("https://www.cdiscount.com/pdt2/2/7/0/1/700x700/den8435089792270/rw/pistolet-replique-m1911-fabrique-par-colt-aux-et.jpg");
+    background-size: cover;
+}
+
+#bazooka {
+    height: 80px;
+    width: 80px;
+    background-image: url("https://img1.shootgame.fr/9467-prd_fiche/lance-roquettes-deep-fire-at4.jpg");
+    background-size: cover;
+}
+
+#j1 {
+    height: 80px;
+    width: 80px;
+    background-image: url("http://51.178.53.98/images/j1.jpg");
+    background-size: cover;
+}
+
+#j2 {
+    height: 80px;
+    width: 80px;
+    background-image: url("http://51.178.53.98/images/j2.jpg");
+    background-size: cover;
+}
+
+#displayJ1, #displayJ2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+img {
+    width: 100px;
+}
+
+#joueur1, #joueur2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cliquer {
+    display: block;
+    height: 95%;
+    border: 2px solid purple;
+    pointer-events: none;
+}
+
+.affichageCombat {
+    display: none;
+}
+
+#tourj1, #tourj2, #tourJoueur {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#jeuCombat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.couleurJoueur {
+    color: teal;
+    font-weight: bold;
+}
+
+#boutonChoix {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    font-size: 1.1rem;
+}
+
+#modeCombat {
+    display: none;
+    text-align: center;
+}
+
+#title {
+    text-align: center;
+}
+
+.icons {
+    width: 1.3rem;
+}
+
+#infosj1, #infosj2 {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+#imagej1, #imagej2 {
+    padding: 1.2rem;
+}
+
+.detail_infos {
+    padding: 0.4rem;
+}
+
